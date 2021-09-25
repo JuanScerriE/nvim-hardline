@@ -70,9 +70,9 @@ return {
 	med = {
 		active = {
 			guifg = colors.base0D.gui,
-			guibg = colors.base01.gui,
+			guibg = colors.base00.gui,
 			ctermfg = colors.base0D.cterm,
-			ctermbg = colors.base01.cterm,
+			ctermbg = colors.base00.cterm,
 		},
 		inactive = inactive,
 	},
