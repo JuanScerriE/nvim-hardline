@@ -1,5 +1,5 @@
 local colors = {
-	base00 = { gui = "#282936", cterm = "0" },
+	base00 = { gui = "#282A36", cterm = "0" },
 	base01 = { gui = "#3A3C4E", cterm = "18" },
 	base02 = { gui = "#4D4F68", cterm = "19" },
 	base03 = { gui = "#626483", cterm = "8" },
@@ -9,11 +9,11 @@ local colors = {
 	base07 = { gui = "#F7F7FB", cterm = "15" },
 	base08 = { gui = "#EA51B2", cterm = "1" },
 	base09 = { gui = "#B45BCF", cterm = "16" },
-	base0A = { gui = "#00F769", cterm = "3" },
+	base0A = { gui = "#50fa7b", cterm = "3" },
 	base0B = { gui = "#EBFF87", cterm = "2" },
 	base0C = { gui = "#8FD4CA", cterm = "6" },
 	base0D = { gui = "#62D6E8", cterm = "4" },
-	base0E = { gui = "#B45BCF", cterm = "5" },
+	base0E = { gui = "#BD93F9", cterm = "5" },
 	base0F = { gui = "#00F769", cterm = "17" },
 }
 
