@@ -35,9 +35,9 @@ return {
 		},
 		insert = {
 			guifg = colors.base01.gui,
-			guibg = colors.base0F.gui,
+			guibg = colors.base0B.gui,
 			ctermfg = colors.base01.cterm,
-			ctermbg = colors.base0F.cterm,
+			ctermbg = colors.base0B.cterm,
 		},
 		replace = {
 			guifg = colors.base00.gui,
@@ -79,9 +79,9 @@ return {
 	high = {
 		active = {
 			guifg = colors.base01.gui,
-			guibg = colors.base0D.gui,
+			guibg = colors.base0C.gui,
 			ctermfg = colors.base01.cterm,
-			ctermbg = colors.base0D.cterm,
+			ctermbg = colors.base0C.cterm,
 		},
 		inactive = inactive,
 	},
