@@ -1,20 +1,20 @@
 local colors = {
-	base00 = { gui = "#282A36", cterm = "0" },
-	base01 = { gui = "#3A3C4E", cterm = "18" },
-	base02 = { gui = "#4D4F68", cterm = "19" },
-	base03 = { gui = "#626483", cterm = "8" },
-	base04 = { gui = "#62D6E8", cterm = "20" },
-	base05 = { gui = "#E9E9F4", cterm = "7" },
-	base06 = { gui = "#F1F2F8", cterm = "21" },
-	base07 = { gui = "#F7F7FB", cterm = "15" },
-	base08 = { gui = "#EA51B2", cterm = "1" },
-	base09 = { gui = "#B45BCF", cterm = "16" },
-	base0A = { gui = "#50fa7b", cterm = "3" },
-	base0B = { gui = "#EBFF87", cterm = "2" },
-	base0C = { gui = "#8FD4CA", cterm = "6" },
-	base0D = { gui = "#62D6E8", cterm = "4" },
-	base0E = { gui = "#BD93F9", cterm = "5" },
-	base0F = { gui = "#00F769", cterm = "17" },
+	base00 = { gui = "#282A36", cterm = "0" }, -- bg
+	base01 = { gui = "#3A3C4E", cterm = "18" }, -- bg-bright
+	base02 = { gui = "#4D4F68", cterm = "19" }, -- bg-brighter
+	base03 = { gui = "#626483", cterm = "8" }, -- bg-brightest
+	base04 = { gui = "#62D6E8", cterm = "20" }, -- cyan
+	base05 = { gui = "#E9E9F4", cterm = "7" }, -- fg
+	base06 = { gui = "#F1F2F8", cterm = "21" }, -- fg-bright
+	base07 = { gui = "#F7F7FB", cterm = "15" }, -- fg-brighter
+	base08 = { gui = "#EA51B2", cterm = "1" }, -- pink
+	base09 = { gui = "#B45BCF", cterm = "16" }, -- purple
+	base0A = { gui = "#50FA7B", cterm = "3" }, -- green
+	base0B = { gui = "#EBFF87", cterm = "2" }, -- yellow
+	base0C = { gui = "#8FD4CA", cterm = "6" }, -- cyan-dim
+	base0D = { gui = "#62D6E8", cterm = "4" }, --
+	base0E = { gui = "#BD93F9", cterm = "5" }, --
+	base0F = { gui = "#00F769", cterm = "17" }, --
 }
 
 local inactive = {
@@ -69,9 +69,9 @@ return {
 	},
 	med = {
 		active = {
-			guifg = colors.base04.gui,
+			guifg = colors.base0C.gui,
 			guibg = colors.base01.gui,
-			ctermfg = colors.base04.cterm,
+			ctermfg = colors.base0C.cterm,
 			ctermbg = colors.base01.cterm,
 		},
 		inactive = inactive,
@@ -79,9 +79,9 @@ return {
 	high = {
 		active = {
 			guifg = colors.base01.gui,
-			guibg = colors.base0C.gui,
+			guibg = colors.base04.gui,
 			ctermfg = colors.base01.cterm,
-			ctermbg = colors.base0C.cterm,
+			ctermbg = colors.base04.cterm,
 		},
 		inactive = inactive,
 	},
