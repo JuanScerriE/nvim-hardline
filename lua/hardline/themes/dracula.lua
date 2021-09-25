@@ -29,9 +29,9 @@ return {
 		inactive = inactive,
 		normal = {
 			guifg = colors.base00.gui,
-			guibg = colors.base0D.gui,
+			guibg = colors.base0E.gui,
 			ctermfg = colors.base00.cterm,
-			ctermbg = colors.base0D.cterm,
+			ctermbg = colors.base0E.cterm,
 		},
 		insert = {
 			guifg = colors.base01.gui,
