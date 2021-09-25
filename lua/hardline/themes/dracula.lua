@@ -35,9 +35,9 @@ return {
 		},
 		insert = {
 			guifg = colors.base01.gui,
-			guibg = colors.base0D.gui,
+			guibg = colors.base0A.gui,
 			ctermfg = colors.base01.cterm,
-			ctermbg = colors.base0D.cterm,
+			ctermbg = colors.base0A.cterm,
 		},
 		replace = {
 			guifg = colors.base00.gui,
