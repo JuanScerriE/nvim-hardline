@@ -11,7 +11,7 @@ local colors = {
 	base09 = { gui = "#B45BCF", cterm = "16" },
 	base0A = { gui = "#00F769", cterm = "3" },
 	base0B = { gui = "#EBFF87", cterm = "2" },
-	base0C = { gui = "#A1EFE4", cterm = "6" },
+	base0C = { gui = "#8FD4CA", cterm = "6" },
 	base0D = { gui = "#62D6E8", cterm = "4" },
 	base0E = { gui = "#B45BCF", cterm = "5" },
 	base0F = { gui = "#00F769", cterm = "17" },
@@ -60,10 +60,10 @@ return {
 	},
 	low = {
 		active = {
-			guifg = colors.base01.gui,
-			guibg = colors.base00.gui,
-			ctermfg = colors.base01.cterm,
-			ctermbg = colors.base00.cterm,
+			guifg = colors.base07.gui,
+			guibg = colors.base03.gui,
+			ctermfg = colors.base07.cterm,
+			ctermbg = colors.base03.cterm,
 		},
 		inactive = inactive,
 	},
