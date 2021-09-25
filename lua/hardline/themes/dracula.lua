@@ -12,9 +12,9 @@ local colors = {
 	base0A = { gui = "#50FA7B", cterm = "3" }, -- green
 	base0B = { gui = "#EBFF87", cterm = "2" }, -- yellow
 	base0C = { gui = "#8FD4CA", cterm = "6" }, -- cyan-dim
-	base0D = { gui = "#62D6E8", cterm = "4" }, --
-	base0E = { gui = "#BD93F9", cterm = "5" }, --
-	base0F = { gui = "#00F769", cterm = "17" }, --
+	base0D = { gui = "#62D6E8", cterm = "4" }, -- blue
+	base0E = { gui = "#A56FF2", cterm = "5" }, -- purple-bright
+	base0F = { gui = "#38DE64", cterm = "17" }, -- green-dim
 }
 
 local inactive = {
@@ -69,9 +69,9 @@ return {
 	},
 	med = {
 		active = {
-			guifg = colors.base0C.gui,
+			guifg = colors.base0D.gui,
 			guibg = colors.base01.gui,
-			ctermfg = colors.base0C.cterm,
+			ctermfg = colors.base0D.cterm,
 			ctermbg = colors.base01.cterm,
 		},
 		inactive = inactive,
